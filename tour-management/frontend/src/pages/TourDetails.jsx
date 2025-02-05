@@ -1,8 +1,7 @@
-import React from 'react' 
+import React from "react" 
 
 const TourDetails = ( ) => {
-    return (
-        <div>TourDetails</div>
-    )
-}
+    return <div>TourDetails</div>;
+    
+};
 export default TourDetails;
