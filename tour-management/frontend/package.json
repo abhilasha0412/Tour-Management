@@ -9,6 +9,7 @@
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",
     "react-scripts": "^5.0.1",
+    "reactstrap": "^9.2.3",
     "remixicon": "^4.6.0",
     "script": "^0.1.4",
     "slick-carousel": "^1.8.1",

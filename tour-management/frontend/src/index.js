@@ -1,19 +1,20 @@
 import React from "react";
-import ReactDom from "react-dom/client";
+import ReactDOM from "react-dom/client";
+// import Footer from './components/Footer';
 
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "remixicon/fonts/remixicon.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import {BrowserRouter } from "react-router-dom";
+import{ BrowserRouter } from "react-router-dom";
 
-
-const root = ReactDom.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-<React.StrictMode>
-   <BrowserRouter>
-   <App />
-   </BrowserRouter>
-</React.StrictMode>
+  <React.StrictMode>
+    <BrowserRouter>
+    <App />
+    </BrowserRouter>
+  </React.StrictMode>
 );
+
