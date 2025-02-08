@@ -1,10 +1,8 @@
 
+import React from "react"; //6.9k (gzipped: 2.7k)
 
-import React from "react" ;
-
-const Registration = ( ) => {
-    return <div>Registration</div>;
-    
+const Register = () => {
+    return <div>Register</div>;
 };
 
-export default Registration;
+export default Register;

@@ -1,9 +1,7 @@
+import React from "react"; //6.9k (gzipped: 2.7k)
 
-
-import React from "react";
-
-const Login = ( ) => {
-    return <div>Login</div>; 
+const Login = () => {
+    return <div>Login</div>;
 };
 
 export default Login;
