@@ -1,7 +1,7 @@
 import React from "react"; //6.9k (gzipped: 2.7k)
 
-const Tours = () => {
-    return <div>Tours</div>;
+const Tour = () => {
+    return <div>Tour</div>;
 };
 
-export default Tours;
+export default Tour;
