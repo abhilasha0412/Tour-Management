@@ -16,11 +16,11 @@ const Booking = ({ tour, avgRating }) => {
         bookAt: "",
     });
     const handleChange = e => {
-        setCredentials(prev=> ({...prev, [e.target.id]: e.target.value}));
+        setCredentials(prev => ({ ...prev, [e.target.id]: e.target.value}));
     };
 
-    const serviceFee = 10
-    const totalAmount = Number(price) * Number(credentials.guestSize) + Number(serviceFee)
+    const serviceFee = 10;
+    const totalAmount = Number(price) * Number(credentials.guestSize) + Number(serviceFee);
 
     //send data to the server
     const handleClick = e=>{
@@ -76,7 +76,14 @@ const Booking = ({ tour, avgRating }) => {
                     <span>${totalAmount}</span>
                 </ListGroupItem>
             </ListGroup>
-            <Button className="btn primary__btn w-100 mt-4" onClick={handleClick}>Book Now</Button>
+            <Button 
+                                   className="btn w-100 mt-4" 
+                                       onClick={handleClick} 
+                            style={{ backgroundColor: 'orange', color: 'white' }}
+                           >
+                                 Book Now
+            </Button>
+
         </div>
     </div>
     );
