@@ -1,8 +1,8 @@
 
-import express from 'express'
+import express from 'express';
 import { createTour } from './../controllers/tourController.js';
 
-const router  = express.Router()
+const router  = express.Router();
 
 // create new tour 
 router.post('/',createTour);
