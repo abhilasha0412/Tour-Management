@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 
-import tourRoute from '../routes/tours.js';
+import tourRoute from "./routes/tours.js";
 
 dotenv.config();
 const app = express();
