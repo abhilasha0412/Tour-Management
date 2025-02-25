@@ -1,4 +1,4 @@
-.hero__subtitle img {
+ .hero__subtitle img {
     width: 2.3rem;
     height: 2.3rem;
 }
@@ -81,7 +81,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: orangered;
+    background: rgb(254, 161, 1);
     color: #fff;
     font-size: 1.6rem;
     font-weight: 600;
@@ -118,4 +118,4 @@
 .testimonial__title {
     font-size: 2.3rem;
     margin-top: 1rem;
-}
+} 

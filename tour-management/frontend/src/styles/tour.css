@@ -1,4 +1,4 @@
-.pagination span {
+ .pagination span {
     width: 2rem;
     height: 2rem;
     padding: 5px;
@@ -17,3 +17,4 @@
     background: orange;
     color: #fff !important;
 }
+
