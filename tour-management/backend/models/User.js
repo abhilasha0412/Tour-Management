@@ -1,54 +1,32 @@
 import mongoose from "mongoose";
 
-const tourSchema = new mongoose.Schema(
+const userSchema = new mongoose.Schema(
   {
-    title: {
+    username: {
       type: String,
       required: true,
       unique: true,
     },
-    city: {
+    email: {
+      type: String,
+      required: true,
+      unique: true,
+    },
+    password: {
       type: String,
       required: true,
     },
-    address: {
-      type: String,
-      required: true,
-    },
-    distance: {
-      type: Number,
-      required: true,
-    },
+
     photo: {
       type: String,
-      required: true,
     },
-    desc: {
+
+    role: {
       type: String,
-      required: true,
-    },
-    price: {
-      type: Number,
-      required: true,
-    },
-    maxGroupSize: {
-      type: Number,
-      required: true,
-    },
-
-    reviews: [
-      {
-        type: mongoose.Types.ObjectId,
-        ref: "Review",
-      },
-    ],
-
-    featured: {
-      type: Boolean,
-      default: false,
+      default: "user",
     },
   },
   { timestamps: true }
 );
 
-export default mongoose.model("Tour", tourSchema);
+export default mongoose.model("User", userSchema);
